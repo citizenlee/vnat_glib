@@ -1,4 +1,4 @@
-To produce a list of gRNAs for SpCas9 (with 'NGG' PAM motif), extract a nucleotide FASTA file '691.12.fna' for each protein-encoding gene  and run the script 'parse_gRNAs_Vnat.py'.
+To produce a list of gRNAs for Sp-Cas9 or Sp-dCas9 (with 'NGG' PAM motif), extract a nucleotide FASTA file '691.12.fna' for each protein-encoding gene  and run the script 'parse_gRNAs_Vnat.py'.
 
 ```bash
 $ python parse_gRNAs_Vnat.py 691.12.fna
