@@ -3,6 +3,7 @@ To produce a list of gRNAs for SpCas9 (with 'NGG' PAM motif), extract a nucleoti
 $ python parse_gRNAs_Vnat.py 691.12.fna
 
 Example output:
+
 FIG|691.12.PEG.1;rc;18;1341;0.01342;AGGCTTGGCAACTGTTCGAA
 FIG|691.12.PEG.1;rc;33;1341;0.02461;TCAGGATTTACTGCGAGGCT
 FIG|691.12.PEG.1;rc;38;1341;0.02834;AGTCCTCAGGATTTACTGCG
