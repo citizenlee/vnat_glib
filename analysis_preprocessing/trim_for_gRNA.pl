@@ -19,9 +19,6 @@ $error = 0.1;
 foreach $file (@files)
 {
 	print "Processing $file\n";
-
-	#print "$line1\n$line2\n\n\n";
-
 	$line1 = "cutadapt --cores 2 -q $quality -a $p7adapter -e $error --trimmed-only $file -o temp.fastq";
 	system($line1);
 	$line2 = "cutadapt --cores 2 -q $quality -g $p5adapter -e $error --trimmed-only temp.fastq -o $file.trimmed";
