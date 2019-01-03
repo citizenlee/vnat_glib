@@ -1,3 +1,11 @@
+# will trim all fastq files for the promoter (defined in $p5adapter) and start of the gRNA scaffold (defined in $p7adapter)
+# requires cutadapt (https://cutadapt.readthedocs.io/en/stable/installation.html) 
+# sequences without the promoter or the beginning of gRNA scaffold are discarded
+# outputs a trimmed file which appends .trimmed to incoming filename and summary table with 3 columns: 
+# 	1. file name
+#	2. number of sequences pre-filter
+#	3. number of sequences post-filter 
+
 @files = glob("*.fastq");
 
 $quality = 22;
