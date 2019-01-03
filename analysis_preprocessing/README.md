@@ -1,2 +1,2 @@
-After sequencing, trim the resulting fastq files such that only the gRNA sequence remains.
-
+After sequencing:
+  1. Trim sequences for gRNA sequences in a folder with all fastq files.
