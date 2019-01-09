@@ -7,4 +7,5 @@ Dependencies:
   * numpy 1.14.0
   * cutadapt 1.16
   
+  
 See ./gRNA_selection for instructions on selecting gRNAs for use with Sp-Cas9/Sp-dCas9
