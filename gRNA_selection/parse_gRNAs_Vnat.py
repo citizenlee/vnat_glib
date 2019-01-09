@@ -18,7 +18,7 @@ for record in SeqIO.parse(handle, "fasta") :
 		rc_currSubString= Seq(currSubString).reverse_complement()
 		if not antisense:
 			rc_currSubString = currSubString
-		if str(rc_currSubString[-2:]) == 'GG' and curr_gRNAs < num_gRNAs: #and (not rc_currSubString in ecoli_all):
+		if str(rc_currSubString[-2:]) == 'GG' and curr_gRNAs < num_gRNAs:
 			percent = float(index)/float(currSeqlen)
 			if(antisense):
 				direction = "rc;"
