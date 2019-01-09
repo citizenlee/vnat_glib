@@ -4,7 +4,14 @@ To produce a list of gRNAs for Sp-Cas9 or Sp-dCas9 (with 'NGG' PAM motif), extra
 $ python parse_gRNAs_Vnat.py 691.12.fna
 ```
 
-Example output:
+Example output in 6 columns:
+1. Gene identifier
+2. Orientation (rc = reverse complement)
+3. Start bp within ORF 
+4. ORF length
+5. Position of gRNA start within ORF as a fraction of ORF length
+6. gRNA sequence
+
 ```bash
 FIG|691.12.PEG.1;rc;18;1341;0.01342;AGGCTTGGCAACTGTTCGAA
 FIG|691.12.PEG.1;rc;33;1341;0.02461;TCAGGATTTACTGCGAGGCT
