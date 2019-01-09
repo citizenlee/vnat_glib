@@ -3,4 +3,4 @@ After sequencing:
   
   2. Extract only the sequences (./seqonly) and tabulate all instances (./uniq). (*extract_tabulate.sh*)
 
-  3. Load gRNA counts, visualize library, and output MAGeCK count table. (*generate_CountTable_media.ipynb)
+  3. Load gRNA counts, visualize library, and output MAGeCK count table. (*generate_CountTable_media.ipynb*)
