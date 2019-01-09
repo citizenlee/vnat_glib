@@ -5,4 +5,4 @@ After sequencing:
 
   3. Load gRNA counts, visualize library, and output MAGeCK count table. (*generate_CountTable_media.ipynb*)
   
-  4. *count_table_media.txt* is then input to MAGeCK mle
+  4. *count_table_media.txt* (unzip the included version) is then input to MAGeCK mle
