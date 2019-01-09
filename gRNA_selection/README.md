@@ -20,4 +20,4 @@ FIG|691.12.PEG.4;rc;32;966;0.03313;CGCCATCACTGAGTGTTTTC
 
 Resulting gRNA sequences should be checked for duplications, which can easily be done by extracting sequences with awk, sort, and uniq.
 
-The gRNA library sequences are in 'CDSrc_guides.cleaned.csv'. The distribution of these guides along the ORF are visualized in the Jupyter notebook, 'visualize_gRNA_distribution.ipynb". 
+The gRNA library sequences are in 'CDSrc_guides.cleaned.csv'. The distribution of these guides along an ORF can be visualized in the Jupyter notebook, 'visualize_gRNA_distribution.ipynb". 
